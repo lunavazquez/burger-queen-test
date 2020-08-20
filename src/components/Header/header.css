@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+}
+
+.header-container {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto 10% 20%;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.app-name {
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.waiter-name {
+  font-size: 1rem;
+}
+
+.logout {
+  border: none;
+  background: none;
+  text-decoration: underline;
+}

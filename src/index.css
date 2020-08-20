@@ -1,0 +1,131 @@
+/* color palette */
+/* importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+
+  /* color variables */
+  --white: #f1f1f1;
+  --gray: #a3a4a4;
+  --dark: #252424;
+  --yellow: #f5b109;
+  --blue: #5c748c;
+  --blue-disable: #6e8395;
+  --pink: #f54278;
+  --violet: #be4bdb;
+  --blue-active: #228be6;
+  --light-gray: #dddddd;
+}
+
+.white {
+  color: var(--white);
+}
+.dark {
+  color: var(--dark);
+}
+.yellow {
+  color: var(--yellow);
+}
+.blue {
+  color: var(--blue);
+}
+.blue {
+  color: var(--blue);
+}
+.pink {
+  color: var(--pink);
+}
+.violet {
+  color: var(--violet);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-pink {
+  background-color: var(--pink);
+}
+.bg-violet {
+  background-color: var(--violet);
+}
+.bold {
+  font-weight: 600;
+}
+.ligther {
+  font-weight: 300;
+}
+.shadow {
+  box-shadow: 0px 4px 16px var(--gray);
+}
+.button {
+  border-radius: 20px;
+  border: 1px solid var(--yellow);
+  background-color: var(--yellow);
+  color: var(--white);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 2rem;
+  padding: 0 1rem;
+  transition: transform 80ms ease-in;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.button:focus {
+  outline: none;
+}
+.button:disabled {
+  opacity: 0.4;
+}
+.link {
+  color: var(--blue-active);
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.input {
+  background: var(--white);
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  color: var(--black);
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+.font-luckiest {
+  font-family: 'Luckiest Guy', cursive;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+.subtitle {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+.link {
+  text-decoration: underline;
+  font-size: 0.75rem;
+  color: var(--blue-active);
+}
